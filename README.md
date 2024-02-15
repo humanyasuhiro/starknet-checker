@@ -145,7 +145,7 @@ with (open(path) as fp):
         if row['identity'] not in eligible_15.keys():
             eligible_15[row['identity']] = row['amount']
 
-bot = telebot.TeleBot('6742834867:AAFDgVZhOw0WvRiSKi8luQtTAmtQsp9tGwg')
+bot = telebot.TeleBot('ip')
 
 
 @bot.message_handler(commands=['start'])
